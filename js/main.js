@@ -162,19 +162,19 @@ $('.back-to-top').click(function () {
     }
 
     //  <!-- Cv download Javascript -->
-     function downloadCV() {
-        //  Replace 'path/to/your/cv.pdf' with the actual path to your CV PDF file
-         var cvUrl = '/pdf/Ravirajsinh(RESUME).pdf';
+    //  function downloadCV() {
+         // Replace 'path/to/your/cv.pdf' with the actual path to your CV PDF file
+        //  var cvUrl = '/pdf/Ravirajsinh(RESUME).pdf';
          
-        //  Create a temporary anchor element
-         var link = document.createElement('a');
-         link.href = cvUrl;
-         link.download = 'Ravirajsinh(Cv)'; // Set the file name for the download
-         document.body.appendChild(link);
+         // Create a temporary anchor element
+        //  var link = document.createElement('a');
+        //  link.href = cvUrl;
+        //  link.download = 'Ravirajsinh(Cv)'; // Set the file name for the download
+        //  document.body.appendChild(link);
          
          // Trigger the download
-         link.click();
+        //  link.click();
          
-         // Clean up
-         document.body.removeChild(link);
-     }
+        //  // Clean up
+        //  document.body.removeChild(link);
+    //  }
